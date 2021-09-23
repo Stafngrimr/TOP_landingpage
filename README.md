@@ -1,6 +1,7 @@
 # helloworld
-Just another repo that I'll delete later
+Apparently, not just another repo I'll be deleting later..
 
-Hello my bitches
+This is now being used for the Odin Projects I'm doing to make sure I know
+all of the HTML, CSS & Javascript that I need to.
 
-This has been edited on ATOM and we're going to push and see how that goes?
+loveStephen
