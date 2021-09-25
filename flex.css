@@ -1,0 +1,27 @@
+/* We're having fun with flex boxes */
+
+body {
+  background-color: peachpuff;
+  width: 100%;
+  height: 100%;
+}
+
+div.outer {
+  display:flex;
+  height: 800px;
+  width: 97%;
+  margin: 10px;
+  border: 2px solid red;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+  padding: 10px;
+}
+
+div.top-outer, div.bottom-outer {
+  display: flex;
+  border: 2px solid green;
+  flex-grow: 1;
+  width: 50%;
+}

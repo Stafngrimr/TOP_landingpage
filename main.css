@@ -1,0 +1,15 @@
+/* This is the stylesheet for the main learning index page -- the one about the
+recipes */
+
+* {
+  border: 2px solid red;
+}
+
+body {
+  background-color: honeydew;
+}
+
+
+h1, p, a {
+  font-family: Helvetica, sans-serif;
+}
