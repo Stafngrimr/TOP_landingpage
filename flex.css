@@ -2,17 +2,12 @@
 
 body {
   background-color: peachpuff;
-  width: 100%;
-  height: 100%;
 }
 
 div.outer {
   display:flex;
-  height: 800px;
-  width: 97%;
-  margin: 10px;
   border: 2px solid red;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: stretch;
   gap: 10px;
@@ -22,6 +17,8 @@ div.outer {
 div.top-outer, div.bottom-outer {
   display: flex;
   border: 2px solid green;
-  flex-grow: 1;
-  width: 50%;
+  background-color: teal;
+  flex: 1 1 auto;
+  width: 40%;
+  height: 400px;
 }
