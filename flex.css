@@ -22,8 +22,15 @@ h1 {
 }
 
 footer {
-	text-align:  center;
+	display: flex;
+	flex-direction: row;
 	padding: 25px;
+	justify-content: center;
+	align-items: center;
+}
+
+footer a {
+	color: white;
 }
 
 .container {
@@ -163,11 +170,21 @@ ul {
 	padding: 0;
 }
 
-a {
+.links a {
 	color: white;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
+}
+
+#github img{
+    height: 23px;
+    width: 23px;
+	margin-right: 10px;
+}
+
+#github img:hover {
+    transform: scale(1.3);
 }
